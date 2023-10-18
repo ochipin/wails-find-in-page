@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="EBsWTOjj642m52LDsRXK" name="ページ1">
+        <mxGraphModel dx="630" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="280" width="420" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="339" y="287" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="287" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="287" width="48" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="508" y="287" width="40" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="556" y="287" width="18" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF0000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="348" y="305" as="sourcePoint"/>
+                        <mxPoint x="348" y="329" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;font face=&quot;system-ui&quot;&gt;&lt;b&gt;大文字・小文字区別&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="292" y="330" width="105" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#FF0000;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="368" y="262" as="sourcePoint"/>
+                        <mxPoint x="368" y="286" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;font face=&quot;system-ui&quot;&gt;&lt;b&gt;正規表現&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="240" width="78" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF0000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="407" y="306" as="sourcePoint"/>
+                        <mxPoint x="407" y="362" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;font face=&quot;system-ui&quot;&gt;&lt;b&gt;検索件数の表示&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="362" y="361" width="91" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#FF0000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="529" y="306" as="sourcePoint"/>
+                        <mxPoint x="529" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="&lt;font face=&quot;system-ui&quot;&gt;&lt;b&gt;検索対象へ移動する&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="471.5" y="330" width="105.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#FF0000;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="565" y="263" as="sourcePoint"/>
+                        <mxPoint x="565" y="287" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;font face=&quot;system-ui&quot;&gt;&lt;b&gt;閉じる&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="544" y="240" width="34" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fillColor=none;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="183" y="287" width="137" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#FF0000;endFill=0;startArrow=classic;startFill=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="248" y="226" as="sourcePoint"/>
+                        <mxPoint x="248" y="287" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="&lt;font face=&quot;system-ui&quot;&gt;&lt;b&gt;Enterで入力した文字列を検索。&lt;br&gt;上・下キーで履歴検索可能。&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="164" y="190" width="168" height="38" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

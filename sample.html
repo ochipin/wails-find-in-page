@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/search.css" />
+    <style>
+div,p,h1,table,td,th,pre,ruby,rt{
+  margin: 0;
+  padding: 0;
+}
+    </style>
+  </head>
+  <body>
+    <!-- 検索バー全体 -->
+    <div id='search' class="search" style="right: 12px; left: auto; top: 0">
+      <!-- 検索方法選定ボタン. disabled を外せば、カスタマイズ用の領域が開く. -->
+      <button id="search-open-config" class="disabled search-change-config search-icon--"></button>
+      <div style="width: 100%">
+        <!-- 検索機能 -->
+        <div style="display: flex; width: 100%; height: 32px ; align-items: center;">
+          <!-- 検索ボックス -->
+          <div class="search-box">
+            <!-- 入力欄 -->
+            <div class="search-input">
+              <input id="search-input" type="search" placeholder="検索 (⇅履歴閲覧)" />
+            </div>
+            <!-- 検索条件(検索オプション) -->
+            <div class="search-options">
+              <button id='search-match-case' class="search-icon--match_case" title="大文字・小文字を区別する"></button>
+              <button id='search-regexp-case' class="search-icon--regexp_case" title="正規表現を使用する"></button>
+            </div>
+            <!-- 検索時のエラーメッセージ -->
+            <p id="search-error" class="search-error"></p>
+          </div>
+          <!-- 検索結果件数表示領域 -->
+          <div id="search-result" class="search-result">
+            <p class="search-result-none">結果はありません。</p>
+            <div class="search-result-count">
+              <span id="search-result-number">?</span>&nbsp;/&nbsp;<span id="search-result-total">?</span>&nbsp;件
+            </div>
+          </div>
+          <!-- 検索画面操作ボタン -->
+          <div class="search-buttons">
+            <button id="search-prev" class="search-icon--prev disabled" title="前の項目 (Shift+Enter)"></button>
+            <button id="search-next" class="search-icon--next disabled" title="次の項目 (Enter)"></button>
+            <button id="search-close" class="search-icon--close" title="閉じる (Escape)"></button>
+          </div>
+        </div>
+        <!-- 検索位置を把握するための目印 -->
+        <div id="search-landmark"></div>
+        <!-- カスタマイズ出来る場所. -->
+        <div class="search-config">
+          <p style="color: white; margin:0; padding:0">This change here.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- この div 内のみ、ページ内検索ができるようになる -->
+    <div id="sample">
+      <div>
+        <h1>吾輩は猫である</h1>
+        <p><ruby>吾輩<rt>わがはい</rt></ruby>は猫である。名前はまだ無い。</p>
+        <p>どこで生まれたかとんと<ruby>見当<rt>けんとう</rt></ruby>がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで初めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番<ruby>獰悪<rt>どうあく</rt></ruby>な種族であったそうだ。この書生というのは時々我々を<ruby>捕<rt>つかま</rt></ruby>えて<ruby>煮<rt>に</rt></ruby>て食うという話である。しかしその当時は何という考もなかったから別段恐しいとも思わなかった。ただ彼の<ruby>掌<rt>てのひら</rt></ruby>に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ちついて書生の顔を見たのがいわゆる人間というものの<ruby>見始<rt>みはじめ</rt></ruby>であろう。この時妙なものだと思った感じが今でも残っている。第一毛をもって装飾されべきはずの顔がつるつるしてまるで<ruby>薬缶<rt>やかん</rt></ruby>だ。</p>
+      </div>
+      <div>
+        <h1>私の個人主義</h1>
+        <p>それも元来至極その存在めというはずの以上を降るですまし。けっして十月へ赴任事はもちろんこういう観念だですまでの握るて来るうには学問比べるないならと、こうにはあれですありたな。人を出かけないのはとにかく今日の同時にたないます。てんで大森さんからぼんやり私立そう矛盾が思うた個性その坊ちゃん私か命令をというお努力ましないうたて、この今日は何か小学校書物へして、岡田さんの事でご免のあなたのもしお拡張と突き破るて誰自分をご講演がなっようにまあご変化が思いませんて、はなはだぷんぷんお話に上っですているで訳へしまします。</p>
+        <p>しかしまた大年々歳々になっのは全く心丈夫としたて、その教師にもなろますばって無理矢理でしているたで。</p>
+        <p>そのため例の上その自分は何中のしましかと張さんでありうな、味の当時ですというご演説たたたから、方角の時にろを近頃までの博奕を場合済んてかかるて、それほどのほかからさばその所によほどあるなたと評しです事たて、若いだありからそうご国家かかるないのんますない。ただ国か非常か反駁が見えるたから、晩ごろ兄がしのでおいます時からご影響の生涯がしだです。一部ではもう思わが構うたですなかっなけれども、同時に単にいうでぼんやりはそうないないのん。</p>
+      </div>
+      <div>
+        <h1>セロ弾きのゴーシュ</h1>
+        <p>ゴーシュは風のあんま音どもから頭へ困っ孔まします。そしてずいぶん残念ないたという頭たまし。正確たましのたはずこうして頭の生意気人のなかにはぐるぐる変だましと、ぼくだけ塩をなんせのだます。するすぎ何はテープからひどいまして一生けん命のコップの嵐らをし第二ゴーシュらのきょろきょろがあわてていたた。三つは近くいじめのにくださいまし。</p>
+        <p>子は一来舞台のようにしているた。むのくらいしかないのでも先生ゴーシュたり何が来と出しん。勢は舞台からうとうとと出しとゴーシュへ譜のようをあいて楽長へ弾いのでおいおいゴーシュについてきまし。</p>
+        <p>どうせもう包みから音を出るたたら。ここらどうにひとりをあるておっかさんについましで。音を思うたた。「ゴーシュが笑った。</p>
+        <p>代り、それにゆうべ。考え。」おまえは今夜のままのこうひとつのうちにあけたいる。</p>
+        <p>手はゴーシュからご戸棚からつぶってあとで下をしてまるでこんどつきあたっれんなかへ見ましで。こつこつ遠慮いうながら、弾きてもっていないてねずみがまた窓をよし本帰っうた。「窓いる。</p>
+      </div>
+    </div>
+    <!-- 検索ライブラリを読み込み -->
+    <script src="javascripts/search.js"></script>
+    <script>
+/* 検索機能を各種イベントリスナーに登録する */
+document.addEventListener("DOMContentLoaded",() => {
+    /** 検索クラスから、インスタンスを生成する */
+    const search = new Search({
+        // 検索対象となるエレメントを渡す
+        target: document.querySelector("#sample"),
+        scroll: document.documentElement
+    });
+    // リサイズイベントに対応する
+    document.body.onresize = () => {
+        search.resize();
+    }
+    // ショートカットキーを登録する
+    addEventListener("keydown", (evt) => {
+        search.shortcut(evt);
+    });
+});
+    </script>
+  </body>
+</html>
